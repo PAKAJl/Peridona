@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Rubik-Bold";
+    src: url("../fonts/Rubik-Bold.woff2") format("woff2"),
+          url("../fonts/Rubik-Bold.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Rubik-Medium";
+    src: url("../fonts/Rubik-Medium.woff2") format("woff2"),
+          url("../fonts/Rubik-Medium.woff") format("woff");
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Rubik-Regular";
+    src: url("../fonts/Rubik-Regular.woff2") format("woff2"),
+          url("../fonts/Rubik-Regular.woff") format("woff");
+    font-display: swap;
+  }
+
+  body{
+      margin: 0;
+      padding: 0;
+      background-color: #F5F5F5;
+      font-family: "Rubik-Regular",sans-serif;
+      font-size: 15px;
+  }
+   .header{
+       
+   }
+
+   .menu{
+       display: flex;
+       height: 88px;
+       background: #ffffff;
+   }
+
+   .menu-workspace{
+       display: flex;
+       justify-content: space-between;
+       width: 1170px;
+       margin: 0 auto;
+   }
+
+   .header__logo{
+        margin: auto 0;
+   }
+
+   .nav{
+        margin: auto 0;
+        width: 540px;
+   }
+
+   .nav__list{
+       display: flex;
+       justify-content: space-between;
+       
+   }
+
+   .nav__item{
+       list-style-type: none;
+       font-family: "Rubik-Medium";
+       font-size: 15px;
+       text-transform: uppercase;
+   }
+
+   .home{
+background: url(/images/town.jpg);
+   }
+
+   .contacts{
+    position: relative;
+    height: 0;
+    width: 668px;
+    border-top: 53px solid #ffffff;
+    border-left: 48px solid transparent;
+    border-right: 48px solid transparent;
+   }
+
+   .contacts__content{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: -60px;
+    margin: 0  57px 0 65px;
+   }
+
+   .contacts__paragraph--timetable:before{
+    content: url(/images/watch-icon.png);
+   }
+
+   .contacts__paragraph--email:before{
+    content: url(/images/mail-icon.png);
+   }
+
+   .contacts__paragraph--phone-number:before{
+    margin-right: 10px;
+    content: url(/images/phone-icon.png);
+   }
