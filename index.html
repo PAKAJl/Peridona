@@ -1,186 +1,439 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
 
-    <body>
-        <header class="header">
-            <div class="menu">
-                <div class="menu-workspace">
-                    <img class="header__logo" src="/images/logo.png" alt="web-site logo">
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item">Home</li>
-                            <li class="nav__item">About us</li>
-                            <li class="nav__item">Blog</li>
-                            <li class="nav__item">Porfolio</li>
-                            <li class="nav__item">Contact us</li>
-                        </ul>
-                    </nav>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+
+        <img class="header__logo" src="/images/logo.png" alt="web-site logo">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">Home</li>
+                <li class="nav__item">About us</li>
+                <li class="nav__item">Blog</li>
+                <li class="nav__item">Porfolio</li>
+                <li class="nav__item">Contact us</li>
+            </ul>
+        </nav>
+
+
+        <div class="home">
+            <div class="contacts">
+                <div class="contacts__content">
+                    <p class="contacts__item contacts__paragraph--timetable">Mon - Fri: 10am - 5pm</p>
+                    <a href="#" class="contacts__item contacts__link contacts__paragraph--email">info@example.com</a>
+                    <a href="#" class="contacts__item contacts__link  contacts__paragraph--phone-number">
+                        (555)567812340
+                    </a>
                 </div>
-                
             </div>
-            
-            <div class="home">
-                <div class="contacts">
-                    <div class="contacts__content">   
-                        <p class="contacts__paragraph contacts__paragraph--timetable">Mon - Fri: 10am - 5pm</p> 
-                        <p class="contacts__paragraph contacts__paragraph--email">info@example.com</p>
-                        <p class="contacts__paragraph contacts__paragraph--phone-number">(555) 5678 12340</p>
-                    </div>        
-                </div>
-                <div class="home-inner">
-                    <img class="home-inner__image" src="/images/building.jpg" alt="building">
-                    <div class="home-inner-content">
-                        <h1 class="home-inner-content__title">We are Providing Be Business Service</h1>
-                        <p class="home-inner-content__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                        <div class="home-inner-content-buttons">
-                            <h4 class="home-inner-content__button">Our Services</h4>
-                            <h4 class="home-inner-content__button">Contact Us</h4>
-                        </div>
+            <div class="home__container">
+                <img class="home__image" src="/images/building.jpg" alt="building">
+                <div class="home__content">
+                    <h1 class="home__title">We are Providing Be Business Service</h1>
+                    <p class="home__paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse
+                        ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#" class="home__button">Our Services</a>
+                        <a href="#" class="home__button">Contact Us</a>
                     </div>
-                    <ul class="home-inner__partner-list">
-                        <li><img class="home-inner__parther-item" src="/images/alisa-logo.png" alt="alisa logo"></li>
-                        <li><img class="home-inner__parther-item" src="/images/natural-logo.png" alt="natural logo"></li>
-                        <li><img class="home-inner__parther-item" src="/images/microwave-logo.png" alt="microwave logo"></li>
-                        <li><img class="home-inner__parther-item" src="/images/urban-logo.png" alt="urban logo"></li>
-                    </ul>
                 </div>
-            </div>
-        </header> 
-            <section class="how-do-we-work">
-                <div class="how-do-we-work__content">
-                    <h2 class="how-do-we-work__header">How do we work...</h2>
-                    <ul class="how-do-we-work__list">
-                        <li class="how-do-we-work__item">
-                            <div class="item__marker item__marker--first"></div>
-                            <div class="item__content">
-                                <h5 class="item__header">All Necessary Data Collection</h5>
-                                <p class="item__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            </div>
-                        </li>
-                        <li class="how-do-we-work__item">
-                            <div class="item__marker item__marker--second"></div>
-                            <div class="item__content">
-                                <h5 class="item__header">Analysis Data</h5>
-                                <p class="item__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            </div>
-                        </li>
-                        <li class="how-do-we-work__item">
-                            <div class="item__marker item__marker--third"></div>
-                            <div class="item__content">
-                                <h5 class="item__header">Report the best Solution</h5>
-                                <p class="item__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <img src="/images/video-right.jpg" alt="play video">
-            </section>
-            <section class="about-our-service">
-                <div class="about-our-service__oaption section-title section-title--white">
-                    <h2 class="about-our-service__header section-header">About Our Service</h2>
-                    <hr class="section-titile__line section-titile__line--long section-titile__line--dark">
-                    <hr class="section-titile__line section-titile__line--short section-titile__line--dark">
-                    <p class="about-our-service__paragraph section-title__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-                </div>
-                <ul class="cart-list">
-                    <li class="cart-list__item">
-                        <div class="cart-list__item-oaption">
-                            <div class="cart-list__item-icon cart-list__item-icon--first"></div>
-                            <h3 class="cart-list__item-title">Financial Consulting</h3>
-                        </div>
-                        <p class="cart-list__item-paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                <ul class="home__partner-list">
+                    <li>
+                        <a class="home__parther-link" href="#">
+                            <img class="home__parther-item" src="/images/alisa-logo.png" alt="alisa logo">
+                        </a>
                     </li>
-                    <li class="cart-list__item">
-                        <div class="cart-list__item-oaption">
-                            <div class="cart-list__item-icon cart-list__item-icon--second"></div>
-                            <h3 class="cart-list__item-title">Audit & Assurance</h3>
-                        </div>
-                        <p class="cart-list__item-paragraph">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <li>
+                        <a class="home__parther-link" href="#">
+                            <img class="home__parther-item" src="/images/natural-logo.png" alt="natural logo">
+                        </a>
                     </li>
-                    <li class="cart-list__item">
-                        <div class="cart-list__item-oaption">
-                            <div class="cart-list__item-icon cart-list__item-icon--third"></div>
-                            <h3 class="cart-list__item-title">Business Services</h3>
-                        </div>
-                        <p class="cart-list__item-paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <li>
+                        <a class="home__parther-link" href="#">
+                            <img class="home__parther-item" src="/images/microwave-logo.png" alt="microwave logo">
+                        </a>
                     </li>
-                    <li class="cart-list__item">
-                        <div class="cart-list__item-oaption">
-                            <div class="cart-list__item-icon cart-list__item-icon--fourth"></div>
-                            <h3 class="cart-list__item-title">Training and Couching</h3>
-                        </div>
-                        <p class="cart-list__item-paragraph">Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                    </li>
-                    <li class="cart-list__item">
-                        <div class="cart-list__item-oaption">
-                            <div class="cart-list__item-icon cart-list__item-icon--fifth"></div>
-                            <h3 class="cart-list__item-title">Investment Planning </h3>
-                        </div>
-                        <p class="cart-list__item-paragraph">Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation..</p>
-                    </li>
-                    <li class="cart-list__item">
-                        <div class="cart-list__item-oaption">
-                            <div class="cart-list__item-icon cart-list__item-icon--sixth"></div>
-                            <h3 class="cart-list__item-title">Marketing Analysis</h3>
-                        </div>
-                        <p class="cart-list__item-paragraph">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                    <li>
+                        <a class="home__parther-link" href="#">
+                            <img class="home__parther-item" src="/images/urban-logo.png" alt="urban logo">
+                        </a>
                     </li>
                 </ul>
-            </section>
-            <section class="achivements">
-                <div class="achivements__item">
-                    <p class="achivemets__number">1230</p>
-                    <h6 class="achivements__title">Project Completed</h6>
-                    <p class="achivements__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+            </div>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="about-us__content">
+            <h2 class="about-us__header">We are Unique & different</h2>
+            <h3 class="about-us__title">About our Business</h3>
+            <p class="about-us__paragraph">
+                Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            </p>
+            <p class="about-us__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
+            </p>
+            <div class="about-us__stats-list">
+                <div class="about-us__stats">
+                    <p class="about-us__stats-number">23000</p>
+                    <p class="stats__stats-desc">Projects</p>
                 </div>
-                <div class="achivements__item">
-                    <p class="achivemets__number">961</p>
-                    <h6 class="achivements__title">Happy Clients</h6>
-                    <p class="achivements__paragraph">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+                <div class="about-us__stats">
+                    <p class="about-us__stats-number">10333</p>
+                    <p class="stats__stats-desc">Reviews</p>
                 </div>
-                <div class="achivements__item">
-                    <p class="achivemets__number">1322</p>
-                    <h6 class="achivements__title">3D Modeling</h6>
-                    <p class="achivements__paragraph">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                <div class="about-us__stats">
+                    <p class="about-us__stats-number">105</p>
+                    <p class="stats__stats-desc">Award</p>
                 </div>
-                <div class="achivements__item">
-                    <p class="achivemets__number">9650</p>
-                    <h6 class="achivements__title">Cup of Tea</h6>
-                    <p class="achivements__paragraph">Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                </div>
+            </div>
+        </div>
+        <form class="about-us-form" action="#">
+            <h3 class="about-us-form__header">Get in tuch</h3>
+            <input class="about-us-form__input-name" type="name" name="name" placeholder="Name">
+            <input class="about-us-form__input-email" type="email" name="email" placeholder=" Email">
+            <input class="about-us-form__input-message" type="text" name="message" placeholder="Message">
+            <input class="about-us-form__submit-button" type="submit" name="submit" value="Send">
+        </form>
+    </section>
+    <section class="how-work">
+        <div class="how-work__content">
+            <h2 class="how-work__title">How do we work...</h2>
+            <ul class="how-work__list">
+                <li class="how-work__item how-work__item--data-colect">
+                    <h3 class="how-work__item-header">All Necessary Data Collection</h3>
+                    <p class="how-work__item-text">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                        ipsum suspendisse.
+                    </p>
+                </li>
+                <li class="how-work__item how-work__item--analysis-data">
+                    <h3 class="how-work__item-header">Analysis Data</h3>
+                    <p class="how-work__item-text">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                        ipsum suspendisse.
+                    </p>
+                </li>
+                <li class="how-work__item how-work__item--rep-sol">
+                    <h3 class="how-work__item-header">Report the best Solution</h3>
+                    <p class="how-work__item-text">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                        ipsum suspendisse.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <img src="/images/video-right.jpeg" alt="play video">
+    </section>
+    <section class="about-our-service">
+        <div class="about-our-service__oaption section-title section-title--white">
+            <h2 class="about-our-service__title section-header">About Our Service</h2>
+            <p class="about-our-service__desc section-title__desc">
+                Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            </p>
+        </div>
+        <ul class="services-list">
+            <li class="services-list__item">
+                <a class="services-list__link" href="">
+                    <h3 class="services-list__item-title services-list__item-title--first">Financial Consulting</h3>
+                    <p class="services-list__item-paragraph">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Quis ipsum suspendisse.
+                    </p>
+                </a>
+            </li>
+            <li class="services-list__item">
+                <a class="services-list__link" href="">
+                    <h3 class="services-list__item-title services-list__item-title--second">Audit & Assurance</h3>
+                    <p class="services-list__item-paragraph">
+                        Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco.
+                    </p>
+                </a>
+            </li>
+            <li class="services-list__item">
+                <a class="services-list__link" href="">
+                    <h3 class="services-list__item-title services-list__item-title--third">Business Services</h3>
+                    <p class="services-list__item-paragraph">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Quis ipsum suspendisse.
+                    </p>
+                </a>
+            </li>
+            <li class="services-list__item">
+                <a class="services-list__link" href="">
+                    <h3 class="services-list__item-title services-list__item-title--fourth">Training and Couching</h3>
+                    <p class="services-list__item-paragraph">
+                        Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris.
+                    </p>
+                </a>
+            </li>
+            <li class="services-list__item">
+                <a class="services-list__link" href="">
+                    <h3 class="services-list__item-title services-list__item-title--fifth">Investment Planning </h3>
+                    <p class="services-list__item-paragraph">
+                        Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud
+                        exercitation..
+                    </p>
+                </a>
+            </li>
+            <li class="services-list__item">
+                <a class="services-list__link" href="">
+                    <h3 class="services-list__item-title services-list__item-title--sixth">Marketing Analysis</h3>
+                    <p class="services-list__item-paragraph">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Quis ipsum suspendisse.
+                    </p>
+                </a>
+            </li>
+        </ul>
+    </section>
 
-            </section>
-            <section class="lastest-news">
-                <div class="lastest__oaption">
-                    <h2 class="lastest__header section-title section-title--dark">Latest News</h2>
-                    <hr class="section-titile__line section-titile__line--long section-titile__line--white">
-                    <hr class="section-titile__line section-titile__line--long section-titile__line--white">
-                    <p class="lastest__paragraph section-title__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+    <section class="achivements">
+        <h2></h2>
+        <table class="achivements-table">
+            <tr class="achivements-table__row">
+                <td>
+                    <p class="achivements-table__number">1230</p>
+                </td>
+                <td>
+                    <p class="achivements-table__number">961</p>
+                </td>
+                <td>
+                    <p class="achivements-table__number">1322</p>
+                </td>
+                <td>
+                    <p class="achivements-table__number">9650</p>
+                </td>
+            </tr>
+            <tr class="achivements-table__row">
+                <td>
+                    <h3 class="achivements-table__title">Project Completed</h3>
+                </td>
+                <td>
+                    <h3 class="achivements-table__title">Happy Clients</h3>
+                </td>
+                <td>
+                    <h3 class="achivements-table__title">3D Modeling</h3>
+                </td>
+                <td>
+                    <h3 class="achivements-table__title">Cup of Tea</h3>
+                </td>
+            </tr>
+            <tr class="achivements-table__row">
+                <td>
+                    <p class="achivements-table__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    </p>
+                </td>
+                <td>
+                    <p class="achivements-table__desc">
+                        Quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo
+                    </p>
+                </td>
+                <td>
+                    <p class="achivements-table__desc">
+                        Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu
+                    </p>
+                </td>
+                <td>
+                    <p class="achivements-table__desc">
+                        Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="team">
+        <div class="team__text-container">
+            <h2 class="team__header">Our great team</h2>
+            <p class="team__paragraph">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.
+            </p>
+            <a class="team__link" href="#">Learn More</a>
+        </div>
+        <div class="team__worker-list">
+            <div class="team__worker">
+                <img class="team__worker-image" src="/images/worker1.jpeg" alt="John Grogaries - Business Professional">
+                <div class="team__worker-info">
+                    <p class="team__worker-name">John Grogaries</p>
+                    <p class="team__worker-position">Business Professional</p>
                 </div>
-                <div class="lastest-news__news">
-                    <img class="lastest-news__image" src="/images/notebook3.jpeg" alt="notebook on table">
-                    <h3 class="lastest-news__header">Enim ad minim ven magna</h3>
-                    <p class="lastest-news__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="team__worker">
+                <img class="team__worker-image" src="/images/worker2.jpeg"
+                    alt="Adam Herison Pole - Business Consiltent">
+                <div class="team__worker-info">
+                    <p class="team__worker-name">Adam Herison Pole</p>
+                    <p class="team__worker-position">Business Consiltent</p>
                 </div>
-                <div class="lastest-news__news">
-                    <img class="lastest-news__image" src="/images/hand-with-pen.jpeg" alt="hand with pen">
-                    <h3 class="lastest-news__header">Lorem ipsum dolor sit amet</h3>
-                    <p class="lastest-news__text">Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis Excepteur sint occaecat cupidatat non proident, sunt in culpa ...</p>
+            </div>
+            <div class="team__worker">
+                <img class="team__worker-image" src="/images/worker3.jpeg" alt="Mani Bomikola - Resear Analist">
+                <div class="team__worker-info">
+                    <p class="team__worker-name">Mani Bomikola</p>
+                    <p class="team__worker-position">Resear Analist</p>
                 </div>
-                <div class="lastest-news__news">
-                    <img class="lastest-news__image" src="/images/man-notebook.jpeg" alt="man with notebook">
-                    <h3 class="lastest-news__header">Dolore magna aliqua enim</h3>
-                    <p class="lastest-news__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="latest-news">
+        <div class="lastest-news__oaption">
+            <h2 class="lastest-news__title section-title section-title--dark">Latest News</h2>
+            <p class="lastest-news__desc section-title__desc">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices
+                gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            </p>
+        </div>
+        <div class="lastest-news__news">
+            <img class="lastest-news__image" src="/images/notebook3.jpeg" alt="notebook on table">
+            <h3 class="lastest-news__header">Enim ad minim ven magna</h3>
+            <p class="lastest-news__text">
+                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam
+            </p>
+        </div>
+        <div class="lastest-news__news">
+            <img class="lastest-news__image" src="/images/hand-with-pen.jpeg" alt="hand with pen">
+            <h3 class="lastest-news__header">Lorem ipsum dolor sit amet</h3>
+            <p class="lastest-news__text">
+                Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa ...
+            </p>
+        </div>
+        <div class="lastest-news__news">
+            <img class="lastest-news__image" src="/images/man-notebook.jpeg" alt="man with notebook">
+            <h3 class="lastest-news__header">Dolore magna aliqua enim</h3>
+            <p class="lastest-news__text">
+                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam
+            </p>
+        </div>
+        <a class="lastest-news__button" href="#">Learn More</a>
+    </section>
+
+    <section class="happy-moments">
+        <div class="happy-moments__title">
+            <h2 class="happy-moments__header">Our Happy Moments</h2>
+            <p class="happy-moments__desc">
+                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.
+            </p>
+            <a class="happy-moments__link" href="#">Learn More</a>
+        </div>
+        <ul class="happy-moments__categories-list">
+            <li class="happy-moments__category"><a href="#" class="happy-moments__link">All</a></li>
+            <li class="happy-moments__category"><a href="#" class="happy-moments__link">Business Plan</a></li>
+            <li class="happy-moments__category"><a href="#" class="happy-moments__link">Business Development</a></li>
+            <li class="happy-moments__category"><a href="#" class="happy-moments__link">Marketing</a></li>
+            <li class="happy-moments__category"><a href="#" class="happy-moments__link">Development</a></li>
+        </ul>
+        <div class="happy-moments__image-list">
+            <img src="/images/building2.jpeg" alt="Building" class="happy-moments__image">
+            <img src="/images/building3.jpeg" alt="Building" class="happy-moments__image">
+            <img src="/images/graphic.jpeg" alt="graphic on screen" class="happy-moments__image">
+            <img src="/images/notebook2.jpeg" alt="notebook on table" class="happy-moments__image">
+            <img src="/images/girl.jpeg" alt="beautiful girl and town on background" class="happy-moments__image">
+            <img src="/images/notebook3.jpeg" alt="notebook on table" class="happy-moments__image">
+        </div>
+
+    </section>
+
+    <section class="map">
+        <img src="/images/ymap.png" alt="position on yandex maps">
+    </section>
+
+    <footer class="footer">
+        <h2 class="footer__header">Peridona</h2>
+        <div class="footer__container">
+            <div class="footer__about">
+                <h3 class="about__header footer__header">Peridona</h3>
+                <p class="about__paragraph">
+                    Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <div class="about__social">
+                    <a href="#" class="about__social-link">
+                        <img src="/images/facebook-icon.png" alt="Facebook icon" class="about__social-icon">
+                    </a>
+                    <a href="#" class="about__social-link">
+                        <img src="/images/twitter-icon.png" alt="Twitter icon" class="about__social-icon">
+                    </a>
+                    <a href="#" class="about__social-link">
+                        <img src="/images/instagram-icon.png" alt="Instagram icon" class="about__social-icon">
+                    </a>
+                    <a href="#" class="about__social-link">
+                        <img src="/images/skype-icon.png" alt="Skype icon" class="about__social-icon">
+                    </a>
+                    <a href="#" class="about__social-link">
+                        <img src="/images/pinterest-icon.png" alt="Pinterest icon" class="about__social-icon">
+                    </a>
                 </div>
-                <h4 class="lastest-news__button">Learn More</h4>
-            </section>
-            <footer class="footer">
-                <p class="footer__copyright">Copyright 2019 - Peridona | All rights Reserved</p>
-            </footer>
-    </body>
+            </div>
+            <div class="footer__resources">
+                <h3 class="resources__header footer__header">Resources</h3>
+                <ul class="resources__list">
+                    <li class="resources__item">
+                        <a href="#" class="resources__link">Blog</a>
+                    </li>
+                    <li class="resources__item">
+                        <a href="#" class="resources__link">Help Center</a>
+                    </li>
+                    <li class="resources__item">
+                        <a href="#" class="resources__link">Community</a>
+                    </li>
+                    <li class="resources__item">
+                        <a href="#" class="resources__link">Marketplace</a>
+                    </li>
+                    <li class="resources__item">
+                        <a href="#" class="resources__link">Career</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__links">
+                <h3 class="links__header footer__header"></h3>
+                <ul class="links__list">
+                    <li class="links__item">
+                        <a href="#" class="links__link">Pricing</a>
+                    </li>
+                    <li class="links__item">
+                        <a href="#" class="links__link">Contact</a>
+                    </li>
+                    <li class="links__item">
+                        <a href="#" class="links__link">Forum</a>
+                    </li>
+                    <li class="links__item">
+                        <a href="#" class="links__link">Live Chat</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="" class="footer__subs-form">
+                <h3 class="subs-form__header footer__header">Subscription</h3>
+                <p class="desc">Subcribe us to get latest update</p>
+                <input type="email" name="email2" placeholder="Email">
+                <input type="submit" name="subscr" value="Subscribe">
+            </form>
+        </div>
+        <p class="footer__copyright">Copyright 2019 - Peridona | All rights Reserved</p>
+    </footer>
+</body>
+
 </html>
