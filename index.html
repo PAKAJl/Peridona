@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/css/style.css">
+    <title>Peridona</title>
 </head>
 
 <body>
     <header class="header">
 
-        <img class="header__logo" src="/images/logo.png" alt="web-site logo">
+        <img class="header__logo" src="/images/logo.png" alt="web-site logo" width="116" height="27">
         <nav class="nav">
             <ul class="nav__list">
                 <li class="nav__item">Home</li>
@@ -26,14 +27,14 @@
             <div class="contacts">
                 <div class="contacts__content">
                     <p class="contacts__item contacts__paragraph--timetable">Mon - Fri: 10am - 5pm</p>
-                    <a href="#" class="contacts__item contacts__link contacts__paragraph--email">info@example.com</a>
-                    <a href="#" class="contacts__item contacts__link  contacts__paragraph--phone-number">
+                    <a href="mailto:info@example.com" class="contacts__item contacts__link contacts__paragraph--email">info@example.com</a>
+                    <a href="tel:(555)567812340" class="contacts__item contacts__link  contacts__paragraph--phone-number">
                         (555)567812340
                     </a>
                 </div>
             </div>
             <div class="home__container">
-                <img class="home__image" src="/images/building.jpg" alt="building">
+                <img class="home__image" src="/images/building.jpg" alt="building" width="473" height="761">
                 <div class="home__content">
                     <h1 class="home__title">We are Providing Be Business Service</h1>
                     <p class="home__paragraph">
@@ -42,29 +43,29 @@
                         ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
                     </p>
                     <div class="home__buttons">
-                        <a href="#" class="home__button">Our Services</a>
-                        <a href="#" class="home__button">Contact Us</a>
+                        <a class="home__button" href="#">Our Services</a>
+                        <a class="home__button" href="#">Contact Us</a>
                     </div>
                 </div>
                 <ul class="home__partner-list">
                     <li>
                         <a class="home__parther-link" href="#">
-                            <img class="home__parther-item" src="/images/alisa-logo.png" alt="alisa logo">
+                            <img class="home__parther-item" src="/images/alisa-logo.png" alt="alisa logo" width="87" height="42">
                         </a>
                     </li>
                     <li>
                         <a class="home__parther-link" href="#">
-                            <img class="home__parther-item" src="/images/natural-logo.png" alt="natural logo">
+                            <img class="home__parther-item" src="/images/natural-logo.png" alt="natural logo" width="106" height="29">
                         </a>
                     </li>
                     <li>
                         <a class="home__parther-link" href="#">
-                            <img class="home__parther-item" src="/images/microwave-logo.png" alt="microwave logo">
+                            <img class="home__parther-item" src="/images/microwave-logo.png" alt="microwave logo" width="141" height="22">
                         </a>
                     </li>
                     <li>
                         <a class="home__parther-link" href="#">
-                            <img class="home__parther-item" src="/images/urban-logo.png" alt="urban logo">
+                            <img class="home__parther-item" src="/images/urban-logo.png" alt="urban logo" width="96" height="26">
                         </a>
                     </li>
                 </ul>
@@ -84,27 +85,40 @@
                 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco nisi ut aliquip ex ea
                 commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
             </p>
-            <div class="about-us__stats-list">
-                <div class="about-us__stats">
-                    <p class="about-us__stats-number">23000</p>
-                    <p class="stats__stats-desc">Projects</p>
-                </div>
-                <div class="about-us__stats">
-                    <p class="about-us__stats-number">10333</p>
-                    <p class="stats__stats-desc">Reviews</p>
-                </div>
-                <div class="about-us__stats">
-                    <p class="about-us__stats-number">105</p>
-                    <p class="stats__stats-desc">Award</p>
-                </div>
+            <div class="about-us__stats">
+                <table class="stats_table">
+                    <tr class="stats__row">
+                        <td class="stats__cell">
+                            <p class="stats__number">23000</p>
+                        </td>
+                        <td class="stats__cell">
+                            <p class="stats__number">10333</p>
+                        </td>
+                        <td class="stats__cell">
+                            <p class="stats__number">105</p>
+                        </td>
+                    </tr>
+
+                    <tr class="stats__row">
+                        <td class="stats__cell">
+                            <p class="stats__desc">Projects</p>
+                        </td>
+                        <td class="stats__cell">
+                            <p class="stats__desc">Reviews</p>
+                        </td>
+                        <td class="stats__cell">
+                            <p class="stats__desc">Award</p>
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
-        <form class="about-us-form" action="#">
+        <form class="about-us-form" action="#" method="POST">
             <h3 class="about-us-form__header">Get in tuch</h3>
-            <input class="about-us-form__input-name" type="name" name="name" placeholder="Name">
+            <input class="about-us-form__input-name" type="text" name="name" placeholder="Name">
             <input class="about-us-form__input-email" type="email" name="email" placeholder=" Email">
-            <input class="about-us-form__input-message" type="text" name="message" placeholder="Message">
-            <input class="about-us-form__submit-button" type="submit" name="submit" value="Send">
+            <textarea class="about-us-form__input-message"  placeholder="Message" name="message"></textarea>  
+            <button type="submit" class="about-us-form__submit-button">Send</button>
         </form>
     </section>
     <section class="how-work">
@@ -134,7 +148,7 @@
                 </li>
             </ul>
         </div>
-        <img src="/images/video-right.jpeg" alt="play video">
+        <img src="/images/video-right.jpeg" alt="play video" width="962" height="570">
     </section>
     <section class="about-our-service">
         <div class="about-our-service__oaption section-title section-title--white">
@@ -204,53 +218,53 @@
     </section>
 
     <section class="achivements">
-        <h2></h2>
+        <h2 class="achivements__header">Achivements</h2>
         <table class="achivements-table">
             <tr class="achivements-table__row">
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__number">1230</p>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__number">961</p>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__number">1322</p>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__number">9650</p>
                 </td>
             </tr>
             <tr class="achivements-table__row">
-                <td>
+                <td class="achivements-table__cell">
                     <h3 class="achivements-table__title">Project Completed</h3>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <h3 class="achivements-table__title">Happy Clients</h3>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <h3 class="achivements-table__title">3D Modeling</h3>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <h3 class="achivements-table__title">Cup of Tea</h3>
                 </td>
             </tr>
             <tr class="achivements-table__row">
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__desc">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     </p>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__desc">
                         Quis nostrud exercitation ullamco laboris nisi ut aliquip ex eacommodo
                     </p>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__desc">
                         Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu
                     </p>
                 </td>
-                <td>
+                <td class="achivements-table__cell">
                     <p class="achivements-table__desc">
                         Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                     </p>
@@ -270,24 +284,23 @@
         </div>
         <div class="team__worker-list">
             <div class="team__worker">
-                <img class="team__worker-image" src="/images/worker1.jpeg" alt="John Grogaries - Business Professional">
+                <img class="team__worker-image" src="/images/worker1.jpeg" alt="John Grogaries - Business Professional" width="236" height="370">
                 <div class="team__worker-info">
-                    <p class="team__worker-name">John Grogaries</p>
+                    <h3 class="team__worker-name">John Grogaries</h3>
                     <p class="team__worker-position">Business Professional</p>
                 </div>
             </div>
             <div class="team__worker">
-                <img class="team__worker-image" src="/images/worker2.jpeg"
-                    alt="Adam Herison Pole - Business Consiltent">
+                <img class="team__worker-image" src="/images/worker2.jpeg" alt="Adam Herison Pole - Business Consultent" width="236" height="370">
                 <div class="team__worker-info">
-                    <p class="team__worker-name">Adam Herison Pole</p>
+                    <h3 class="team__worker-name">Adam Herison Pole</h3> 
                     <p class="team__worker-position">Business Consiltent</p>
                 </div>
             </div>
             <div class="team__worker">
-                <img class="team__worker-image" src="/images/worker3.jpeg" alt="Mani Bomikola - Resear Analist">
+                <img class="team__worker-image" src="/images/worker3.jpeg" alt="Mani Bomikola - Resear Analist"  width="236" height="370">
                 <div class="team__worker-info">
-                    <p class="team__worker-name">Mani Bomikola</p>
+                    <h3 class="team__worker-name">Mani Bomikola</h3>
                     <p class="team__worker-position">Resear Analist</p>
                 </div>
             </div>
@@ -304,28 +317,34 @@
             </p>
         </div>
         <div class="lastest-news__news">
-            <img class="lastest-news__image" src="/images/notebook3.jpeg" alt="notebook on table">
-            <h3 class="lastest-news__header">Enim ad minim ven magna</h3>
-            <p class="lastest-news__text">
-                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam
-            </p>
+            <a class="latest-news__link" href="#">
+                <img class="lastest-news__image" src="/images/notebook3.jpeg" alt="Enim ad minim ven magna" width="371" height="208">
+                <h3 class="lastest-news__header">Enim ad minim ven magna</h3>
+                <p class="lastest-news__text">
+                    Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam
+                </p>
+            </a>
         </div>
         <div class="lastest-news__news">
-            <img class="lastest-news__image" src="/images/hand-with-pen.jpeg" alt="hand with pen">
-            <h3 class="lastest-news__header">Lorem ipsum dolor sit amet</h3>
-            <p class="lastest-news__text">
-                Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa ...
-            </p>
+            <a class="latest-news__link" href="#">
+                <img class="lastest-news__image" src="/images/hand-with-pen.jpeg" alt="Lorem ipsum dolor sit amet" width="371" height="208">
+                <h3 class="lastest-news__header">Lorem ipsum dolor sit amet</h3>
+                <p class="lastest-news__text">
+                    Abore et dolore magna aliqua. Ut enim aliquip ex ea commodo consequat. Duis
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa ...
+                </p>
+            </a>
         </div>
         <div class="lastest-news__news">
-            <img class="lastest-news__image" src="/images/man-notebook.jpeg" alt="man with notebook">
-            <h3 class="lastest-news__header">Dolore magna aliqua enim</h3>
-            <p class="lastest-news__text">
-                Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam
-            </p>
+            <a class="latest-news__link" href="#">
+                <img class="lastest-news__image" src="/images/man-notebook.jpeg" alt="Dolore magna aliqua enim" width="371" height="208">
+                <h3 class="lastest-news__header">Dolore magna aliqua enim</h3>
+                <p class="lastest-news__text">
+                    Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam
+                </p>
+            </a>
         </div>
         <a class="lastest-news__button" href="#">Learn More</a>
     </section>
@@ -347,20 +366,17 @@
             <li class="happy-moments__category"><a href="#" class="happy-moments__link">Development</a></li>
         </ul>
         <div class="happy-moments__image-list">
-            <img src="/images/building2.jpeg" alt="Building" class="happy-moments__image">
-            <img src="/images/building3.jpeg" alt="Building" class="happy-moments__image">
-            <img src="/images/graphic.jpeg" alt="graphic on screen" class="happy-moments__image">
-            <img src="/images/notebook2.jpeg" alt="notebook on table" class="happy-moments__image">
-            <img src="/images/girl.jpeg" alt="beautiful girl and town on background" class="happy-moments__image">
-            <img src="/images/notebook3.jpeg" alt="notebook on table" class="happy-moments__image">
+            <img src="/images/building2.jpeg" alt="Building" class="happy-moments__image" width="470" height="353">
+            <img src="/images/building3.jpeg" alt="Building" class="happy-moments__image" width="270" height="353">
+            <img src="/images/graphic.jpeg" alt="graphic on screen" class="happy-moments__image" width="370" height="179">
+            <img src="/images/notebook2.jpeg" alt="notebook on table" class="happy-moments__image" width="370" height="230">
+            <img src="/images/girl.jpeg" alt="beautiful girl and town on background" class="happy-moments__image" width="370" height="230">
+            <img src="/images/notebook1.jpeg" alt="notebook on table" class="happy-moments__image" width="370" height="403">
         </div>
-
     </section>
-
     <section class="map">
-        <img src="/images/ymap.png" alt="position on yandex maps">
+        <img src="/images/ymap.png" alt="position on yandex maps" width="1919" height="405">
     </section>
-
     <footer class="footer">
         <h2 class="footer__header">Peridona</h2>
         <div class="footer__container">
@@ -372,19 +388,19 @@
                 </p>
                 <div class="about__social">
                     <a href="#" class="about__social-link">
-                        <img src="/images/facebook-icon.png" alt="Facebook icon" class="about__social-icon">
+                        <img src="/images/facebook-icon.png" alt="Facebook icon" class="about__social-icon" width="7" height="13">
                     </a>
                     <a href="#" class="about__social-link">
-                        <img src="/images/twitter-icon.png" alt="Twitter icon" class="about__social-icon">
+                        <img src="/images/twitter-icon.png" alt="Twitter icon" class="about__social-icon" width="16" height="13">
                     </a>
                     <a href="#" class="about__social-link">
-                        <img src="/images/instagram-icon.png" alt="Instagram icon" class="about__social-icon">
+                        <img src="/images/instagram-icon.png" alt="Instagram icon" class="about__social-icon" width="12" height="12">
                     </a>
                     <a href="#" class="about__social-link">
-                        <img src="/images/skype-icon.png" alt="Skype icon" class="about__social-icon">
+                        <img src="/images/skype-icon.png" alt="Skype icon" class="about__social-icon" width="13" height="13">
                     </a>
                     <a href="#" class="about__social-link">
-                        <img src="/images/pinterest-icon.png" alt="Pinterest icon" class="about__social-icon">
+                        <img src="/images/pinterest-icon.png" alt="Pinterest icon" class="about__social-icon" width="10" height="13">
                     </a>
                 </div>
             </div>
@@ -409,7 +425,7 @@
                 </ul>
             </div>
             <div class="footer__links">
-                <h3 class="links__header footer__header"></h3>
+                <h3 class="links__header footer__header">Links</h3>
                 <ul class="links__list">
                     <li class="links__item">
                         <a href="#" class="links__link">Pricing</a>
@@ -425,14 +441,16 @@
                     </li>
                 </ul>
             </div>
-            <form action="" class="footer__subs-form">
+            <form action="#" method="POST" class="footer__subs-form">
                 <h3 class="subs-form__header footer__header">Subscription</h3>
                 <p class="desc">Subcribe us to get latest update</p>
                 <input type="email" name="email2" placeholder="Email">
-                <input type="submit" name="subscr" value="Subscribe">
+                <button type="submit">Subscribe</button>
             </form>
         </div>
-        <p class="footer__copyright">Copyright 2019 - Peridona | All rights Reserved</p>
+        <div class="footer__copyright"> 
+            <p class="footer__copyright-text">Copyright 2019 - Peridona | All rights Reserved</p>
+        </div>
     </footer>
 </body>
 
