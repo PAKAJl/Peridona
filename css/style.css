@@ -19,3 +19,51 @@
     font-display: swap;
   }
 
+body{
+    font-family: "Rubic-Regilar", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.nav{
+    height: 88px;
+    background: #ffffff;
+}
+
+.nav__container{
+    margin: 0 auto;
+    width: 1171px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin: auto 0;
+}
+
+.nav__content{
+    width: 540px;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav__item{
+    list-style-type: none;
+    font-family: "Rubik-Medium", Arial, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #242a5a;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: #242a5a;
+}
+
+.nav__link:hover{
+    color: #525ec0;
+}
