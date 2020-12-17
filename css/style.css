@@ -450,10 +450,6 @@ ul{
     background: url(/images/video-right.jpeg);
 }
 
-.video__container{
-    
-}
-
 .video__circle{
     border-radius: 50%;
 }
@@ -723,26 +719,45 @@ ul{
 }
 /*achivements*/
 .achivements{
-    
+    background: #082362;
 }
 
 .achivements__header{
+    position: absolute; 
+    opacity: 0;
+}
 
+.achivements-table{
+    width: 1171px;
+    margin: 0 auto;
+}
+
+.achivements-table__td{
+    
 }
 
 .achivements-table__number{
     font-family: "Rubik-Bold", Arial, sans-serif;
     font-size: 48px;
+    color: white;
+    margin: 80px 0 26px 0;
+    width: 270px;
 }
 
 .achivements-table__title{
     font-family: "Rubik-Medium", Arial, sans-serif;
     font-size: 20px;
+    color: #a9a0a6;
+    margin: 0 0 33px 0;
+    width: 270px;
 }
 
 .achivements-table__desc{
     font-family: "Rubik-Regular", Arial, sans-serif;
     font-size: 15px;
+    color: white;
+    margin: 0 0 80px 0;
+    width: 270px;
 }
 /*team*/
 .team{
