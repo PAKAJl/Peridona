@@ -570,6 +570,7 @@ ul{
 
 .section-title__desc--dark{
     color: #C1C1C1;
+    width: 700px;
 }
 
 .section-title__desc--dark:before{
@@ -820,6 +821,8 @@ ul{
 }
 
 .team__worker-name{
+    font-family: "Rubik-Medium", Arial, sans-serif;
+    font-size: 18px;
     color: #ffffff;
     background: rgba(8, 35, 98, 0.8);
     margin: 0;
@@ -835,6 +838,8 @@ ul{
 }
 
 .team__worker-position{
+    font-family: "Rubik-Regular", Arial, sans-serif;
+    font-size: 14px;
     color:#D0CECE;
     background:rgba(8, 35, 98, 0.8);
     margin: 0;
@@ -847,35 +852,80 @@ ul{
     background: rgba(8, 35, 98, 1);
 }
 
-.team__worker-name{
-    font-family: "Rubik-Medium", Arial, sans-serif;
-    font-size: 18px;
-}
-
-.team__worker-position{
-    font-family: "Rubik-Regular", Arial, sans-serif;
-    font-size: 14px;
-}
 /*latest-news*/
-.lastest-news__header{
-    font-family: "Rubik-Medium", Arial, sans-serif;
-    font-size: 18px;
+.latest-news{
+    background: linear-gradient(0deg, #F5F5F5 30%, #082362 30%);
 }
 
-.lastest-news__text{
+.latest-news__container{
+    width: 1171px;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+}
+
+.latest-news__oaption{
+    display: flex;
+    margin: 0 0 75px 0;
+    padding: 80px 0 0 0;
+}
+
+.latest-news__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-news__news{
+    background: #ffffff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    width: 370px; /* Параметры тени */
+}
+
+.latest-news__content{
+    padding: 30px;
+}
+
+.latest-news__header{
+    font-family: "Rubik-Medium", Arial, sans-serif;
+    font-size: 18px;
+    color: #353247;
+    margin: 0 0 15px 0;
+}
+
+.latest-news__text{
     font-family: "Rubik-Regular", Arial, sans-serif;
     font-size: 16px;
+    line-height: 25px;
+    color: #6B6B6B;
 }
 
-.lastest-news__button{
+.latest-news__button{
+    display: block;
+    color: #ffffff;
+    background: #082362;
+    border-radius: 0;
+    border: 0;
+    outline: none;
+    transition: 200ms;
     font-family: "Rubik-Medium", Arial, sans-serif;
     font-size: 17px;
+    padding: 13px 22px;
+    height: 19px;
+    width: 96px;
+    margin: 30px auto;
+}
+
+.latest-news__button:hover{
+    background: #111c39;
 }
 
 /*happy-moments*/
+.happy-moments{
+}
+
 .happy-moments__header{
     font-family: "Rubik-Bold", Arial, sans-serif;
     font-size: 36px;
+    margin: 0;
 }
 
 .happy-moments__desc{
