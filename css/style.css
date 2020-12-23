@@ -602,7 +602,7 @@ ul{
     flex-flow: row wrap;
     align-content: space-between;
     justify-content: space-between;
-    padding: 0;
+    padding: 0 0 120px 0;
 }
 
 .services-item{
@@ -810,10 +810,6 @@ ul{
     position: relative;
 }
 
-.team__worker-image{
-    
-}
-
 .team__worker-info{
     position: absolute;
     top: 283px;
@@ -919,9 +915,6 @@ ul{
 }
 
 /*happy-moments*/
-.happy-moments{
-}
-
 .happy-moments__container{
     width: 1171px;
     margin: 0 auto;
@@ -991,6 +984,17 @@ ul{
     height: 280px;
     width: 370px;
     margin: 0 0 30px 0;
+}
+
+.map{
+    display: flex;
+    justify-content: space-between;
+}
+
+.map__element{
+    margin: auto;
+    width: 1920px;
+    height: 600px;
 }
 
 /*footer*/
