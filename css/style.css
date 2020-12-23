@@ -313,7 +313,6 @@ ul{
 
 .about-us-form__input{
     display: block;
-    font-family: "Rubik-Regular", Arial, sans-serif;
     font-size: 14px;
     padding: 16px 29px;
     margin: 0 0 19px 30px;
@@ -324,7 +323,6 @@ ul{
 }
 
 .about-us-form__input--message{
-    font-family: "Rubik-Regular", Arial, sans-serif;
     font-size: 14px;
     resize: none;
     width: 488px;
@@ -351,9 +349,14 @@ ul{
 
 /*how-work*/
 .how-work{
+    position: relative;
     background: #082362;
     color: #ffffff;
     padding-bottom: 43px;
+}
+
+.how-work__decor{
+    position: absolute;
 }
 
 .how-work__container{
@@ -436,7 +439,6 @@ ul{
 }
 
 .how-work__item-text{
-    font-family: "Rubik-Regular", Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -546,7 +548,6 @@ ul{
 }
 
 .section-title__desc{
-    font-family: "Rubik-Regular", Arial, sans-serif;
     font-size: 14px;
     margin: 0 40px 0 20px;
     line-height: 20px;
@@ -588,7 +589,12 @@ ul{
 
 /*about-our-services*/
 .about-our-service{
-   background: #f5f5f5;
+    position: relative;
+    background: #f5f5f5;
+}
+
+.about-our-service__decor{
+    position: absolute;
 }
 
 .about-our-service__container{
@@ -720,7 +726,7 @@ ul{
 }
 /*achivements*/
 .achivements{
-    background: #082362;
+    background: url(../images/achive-bg.jpg);
 }
 
 .achivements__header{
@@ -737,7 +743,7 @@ ul{
     font-family: "Rubik-Bold", Arial, sans-serif;
     font-size: 48px;
     color: white;
-    margin: 80px 0 26px 0;
+    margin: 70px 0 26px 0;
     width: 270px;
 }
 
@@ -753,7 +759,7 @@ ul{
     font-family: "Rubik-Regular", Arial, sans-serif;
     font-size: 15px;
     color: white;
-    margin: 0 0 80px 0;
+    margin: 0 0 70px 0;
     width: 270px;
 }
 /*team*/
@@ -850,7 +856,13 @@ ul{
 
 /*latest-news*/
 .latest-news{
+    position: relative;
     background: linear-gradient(0deg, #F5F5F5 30%, #082362 30%);
+}
+
+.latest-news__decor{
+    position: absolute;
+    left: 1640px;
 }
 
 .latest-news__container{
@@ -993,7 +1005,7 @@ ul{
 
 .map__element{
     margin: auto;
-    width: 1920px;
+    width: 100%;
     height: 600px;
 }
 
@@ -1104,7 +1116,6 @@ ul{
     height: 69px;
     align-items: center;
     justify-content: center;
-    
 }
 
 .footer__copyright-text{
