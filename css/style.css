@@ -595,6 +595,8 @@ ul{
 
 .about-our-service__decor{
     position: absolute;
+    right:  0px;
+    bottom: 0;
 }
 
 .about-our-service__container{
@@ -862,7 +864,7 @@ ul{
 
 .latest-news__decor{
     position: absolute;
-    left: 1640px;
+    left: 1610px;
 }
 
 .latest-news__container{
